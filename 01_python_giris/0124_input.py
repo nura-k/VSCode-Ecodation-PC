@@ -1,4 +1,6 @@
 #region input_giris
+#input kullanıcıdan bir veri girişi bekler.
+#girilen veri girişini belirlenen değişkene atar.
 """
 deger = input("lütfen doğum tarihi giriniz : ")
 print(deger)
@@ -6,7 +8,6 @@ deger  = input("lütfen plaka kodu giriniz : ")
 print("plaka kodu", deger)
 """
 #endregion
-
 
 #region ornek_1
 """
@@ -20,9 +21,11 @@ print("Adınız", ad, "Soyadınız", soyad, "En sevdiğiniz Ders", ders)
 
 #region ornek_2
 """
+input anında girilen tüm değerler string'dir!
 """
 dTarihi = input("Lütfen Doğum Tarihi Grnz\t\t: ")
 print(type(dTarihi))
 #yas = 2021 - dTarihi
 #print(dTarihi, "doğum tarihli öğrencimizin yaşı", yas)
+
 #endregion
