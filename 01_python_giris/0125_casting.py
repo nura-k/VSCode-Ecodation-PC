@@ -1,4 +1,6 @@
 #region tip_dönüşümü
+#input anında girilen tüm deperler string olduğundan dolayı,
+#gerektiği zaman type dönüşümü yapmak gerekiyor.
 """
 dTarihi = int(input("Doğum Tarihi Giriniz\t: "))
 #dTarihi = int(dTarihi)
